@@ -14,17 +14,14 @@ h3{
     color: #837E9F;
     font-weight: 600;
     font-size: 20px;
-    margin-left: 20px;
-    margin-top: 30px;
 }
 
 p{
     color: #837E9F;
     font-size: 15px;
-    line-height: 0px;
 }
 
-div.container{
+div.leftcontainer{
     flex-direction: column;
     max-width: fit-content;
 }
@@ -36,6 +33,7 @@ div.profile-container{
     margin-top: 40px;
     margin-left: 40px;
     margin-bottom: 30px;
+    padding: 20px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -65,6 +63,7 @@ div.links-container{
     margin-top: 30px;
     margin-left: 40px;
     margin-bottom: 30px;
+    padding: 20px;
     align-items: left;
     display: flex;
     flex-direction: column;
@@ -85,7 +84,6 @@ ul.links-list{
 
 li{
     padding-left: 20px;
-    
 }
 
 li.globe{
@@ -112,11 +110,10 @@ li.email{
 
 div.tech-container{
     background-color: #302F3D;
-    width: 348px;
-    height: 208px;
-    margin-top: 30px;
+
+    height: max-content;
     margin-left: 40px;
-    margin-bottom: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     box-shadow: 2px 2px 8px 1px #00000013;
@@ -126,9 +123,6 @@ div.tech-container{
 div.tech-tags{
     display: flex;
     justify-content: flex-end;
-    gap: 5px 20px;
-    row-gap: 10px;
-    column-gap: 20px;
     flex-wrap: wrap;
     flex-direction: row-reverse;
     align-content: space-between;
@@ -140,16 +134,18 @@ p.tags{
     color: #22212C;
     font-weight: 700;
     background-color: #CB92B1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
     text-transform: uppercase;
 }
 
 div.experiences-container{
     background-color: #302F3D;
-    width: 348px;
-    height: 380px;
     margin-top: 30px;
     margin-left: 40px;
     margin-bottom: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     box-shadow: 2px 2px 8px 1px #00000013;
@@ -190,11 +186,10 @@ p.company-list{
 
 div.education-container{
     background-color: #302F3D;
-    width: 348px;
-    height: 300px;
     margin-top: 30px;
     margin-left: 40px;
     margin-bottom: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     box-shadow: 2px 2px 8px 1px #00000013;

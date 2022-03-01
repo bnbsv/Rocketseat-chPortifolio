@@ -1,7 +1,12 @@
 html {
     background-color: #22212C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
-    color: aqua;
+    color: rgb(33, 202, 90);
+}
+
+p{
+    color: #837E9F;
 }

@@ -29,7 +29,6 @@ div.leftcontainer{
 div.profile-container{
     background-color: #302F3D;
     width: 348px;
-    height: 292px;
     margin-top: 40px;
     margin-left: 40px;
     margin-bottom: 30px;
@@ -59,7 +58,6 @@ img{
 div.links-container{
     background-color: #302F3D;
     width: 348px;
-    height: 348px;
     margin-top: 30px;
     margin-left: 40px;
     margin-bottom: 30px;
@@ -110,7 +108,7 @@ li.email{
 
 div.tech-container{
     background-color: #302F3D;
-
+    width: 348px;
     height: max-content;
     margin-left: 40px;
     padding: 20px;
@@ -122,19 +120,20 @@ div.tech-container{
 
 div.tech-tags{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    gap: 5px 10px;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
-    align-content: space-between;
 }
 
 p.tags{
-    margin-left: 20px;
-    font-size: 13px;
+    font-size: 12px;
     color: #22212C;
     font-weight: 700;
     background-color: #CB92B1;
-    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     border-radius: 20px;
     text-transform: uppercase;
@@ -142,6 +141,7 @@ p.tags{
 
 div.experiences-container{
     background-color: #302F3D;
+    width: 348px;
     margin-top: 30px;
     margin-left: 40px;
     margin-bottom: 30px;
@@ -186,6 +186,7 @@ p.company-list{
 
 div.education-container{
     background-color: #302F3D;
+    width: 348px;
     margin-top: 30px;
     margin-left: 40px;
     margin-bottom: 30px;

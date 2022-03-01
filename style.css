@@ -3,6 +3,10 @@ html {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+div.main{
+    display: flex;
+}
+
 h2{
     color: #837E9F;
     font-weight: 600;
@@ -82,6 +86,9 @@ ul.links-list{
     text-align: left;
 }
 
+li{
+    padding-left: 20px;
+}
 
 li.globe{
     list-style-image: url('icons/map-pin.svg');
@@ -200,30 +207,31 @@ div.education-container{
     justify-content: flex-start;
 }
 
+
 div.projects{
-    width: 952px;
+    width: 82em;
     padding: 20px;
     margin-left: 60px;
+    margin-top: 40px;
     display: flex;
     position: relative;
     top: auto;
     background-color: #302F3D;
     box-shadow: 2px 2px 8px 1px #00000013;
-    border-radius: 20px;
+    border-radius: 20px; 
 }
 
-div.project-card{
-    display: inline-block;
+div.project-cards{
+    display: flex;
+    flex-wrap:nowrap;
 }
 
 div.left-card{
-    width: 431px;
-    padding: 20px;
+    width: 600px;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 60px;
     display: flex;
-    position: relative;
     text-align: left;
     flex-direction: column;
     background-color: #302F3D;
@@ -232,13 +240,12 @@ div.left-card{
 }
 
 div.right-card{
-    width: 431px;
+    width: 650px;
     padding: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 60px;
     display: flex;
-    position: relative;
     text-align: left;
     flex-direction: column;
     background-color: #302F3D;
@@ -251,10 +258,15 @@ ul.properties-card{
     font-size: 15px;
     line-height: 40px;
     margin-left: 40px;
-    margin-top: 30px;
-    display: inline-block;
+    display: inline;
     padding-left: 20px;
     text-align: left;
+}
+
+li.folder{
+    list-style-image: url('icons/folder.svg');
+    font-weight: 600;
+    font-size: 17px;
 }
 
 li.star{
@@ -266,8 +278,8 @@ li.branch{
 }
 
 div.recentposts{
+    width: 82em;
     padding: 20px;
-    width: 952px;
     margin-left: 60px;
     display: flex;
     position: relative;
@@ -276,3 +288,13 @@ div.recentposts{
     border-radius: 20px;
 }
 
+div.post{
+    width: 82em;
+    padding: 20px;
+    margin-left: 60px;
+    display: flex;
+    position: relative;
+    background-color: #302F3D;
+    box-shadow: 2px 2px 8px 1px #00000013;
+    border-radius: 20px;
+}

@@ -3,19 +3,39 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h2{
+    color: #837E9F;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 0px;
+}
 
-div{
+p{
+    color: #837E9F;
+    font-size: 15px;
+    line-height: 0px;
+}
+
+div.container{
+    height: 292px;
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.profile-container{
     background-color: #302F3D;
     height: 292px;
     width: 348px;
-    margin: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     box-shadow: 2px 2px 8px 1px #00000013;
     border-radius: 20px;
-    
 }
 
 img{
@@ -23,7 +43,6 @@ img{
     max-height: 45%;
     border: 3px solid #ff0077 ;
     border-radius: 100px;
-    justify-content: start;
     margin-bottom: 20px;
 }
 
@@ -31,17 +50,4 @@ img{
 #profile-pic{
     height: 128px;
     width: 128px;
-}
-
-p{
-    color: #837E9F;
-    font-size: 15px;
-    line-height: 0.4px;
-}
-
-p.name{
-    color: #837E9F;
-    font-weight: 600;
-    font-size: 25px;
-    margin-top: 30px;
 }
